@@ -130,6 +130,34 @@ var jsStats = {
     var sss = jsStats.sumOfSquares(arrSample);
     return (ssp - sss) / ssp;
   },
+  
+  // Principal Component Analysis using Covariance Method
+  //
+  // http://en.wikipedia.org/wiki/Principal_component_analysis#Computing_PCA_using_the_covariance_method
+  //
+  // @param {Matrix} mat
+  // @return {Matrix} pcaMat
+  principalComponentAnalysis: function(mat) {
+      // ensure input is matrix
+
+      // calculate empirical mean
+
+      // calculate deviations from mean
+
+      // find the covariance matrix
+
+      // find the eigenvectors and eigenvalues of the covariance matrix
+
+      // rearrange the eigenvectors and eigenvalues
+
+      // compute the cumulative energy content for each eigenvector
+
+      // select a subset of the eigenvectors as basis vectors
+
+      // convert the source data to z-scores
+
+      // project the z-scores of the data onto new basis
+  }
 };
 
 jsStatsHelpers = {
